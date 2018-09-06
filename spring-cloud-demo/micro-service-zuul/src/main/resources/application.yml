@@ -1,0 +1,1 @@
+server:  port: 7782eureka:  client:    service-url:      defaultZone: http://127.0.0.1:7777/eureka/spring:  application:    name: micro-service-zuulzuul:  routes:    api-a:      path: /api-a/*      serviceId: MICRO-SERVICE-RABBON    api-b:      path: /api-b/*      serviceId: MICRO-SERVICE-FEIGNCLIENT

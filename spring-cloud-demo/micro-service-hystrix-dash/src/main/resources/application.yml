@@ -1,0 +1,1 @@
+server:  port: 7783spring:  application:    name: hystrix-dashboardeureka:  client:    service-url:      defaultZone: http://localhost:7777/eureka/turbine:  app-config: micro-service-hystrix-dash  aggregator:    cluster-config: default  cluster-name-expression: new String("default")
