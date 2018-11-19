@@ -22,8 +22,8 @@
 		<module>configure-config-client</module>
 		<module>configure-config-client01</module>
 		<!--可视化-->
-		<module>visual-service-zookeeper</module>
-		<module>visual-service-zipkin</module>
+		<!--<module>visual-service-zookeeper</module>
+		<module>visual-service-zipkin</module>-->
 	</modules>
 	<name>spring-cloud-demo</name>
 	<description>Demo project for Spring Boot</description>
