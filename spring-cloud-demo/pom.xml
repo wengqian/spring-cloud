@@ -6,7 +6,7 @@
 	<groupId>com.wq</groupId>
 	<artifactId>spring-cloud-demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>	
+	<packaging>pom</packaging>
 	<modules>
 		<module>registry-center</module>
 		<module>registry-center-01</module>
