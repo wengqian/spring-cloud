@@ -1,1 +1,1 @@
-server:  port: 7779eureka:  client:    service-url:      defaultZone: http://127.0.0.1:7777/eureka/spring:  application:    name: micro-service
+server:  port: 7779eureka:  client:    register-with-eureka: true    fetch-registry: true    #轮流注册，如果注册中心sz1挂了会自动向sz2进行注册，该写法默认注册第一个    prefer-same-zone-eureka: true    #地区    region: two-register    availability-zones:      two-register: sz1,sz2    service-url:      sz1: http://127.0.0.1:7777/eureka/      sz2: http://127.0.0.1:7776/eureka/spring:  application:    name: micro-service
