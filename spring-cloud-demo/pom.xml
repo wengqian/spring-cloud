@@ -21,6 +21,8 @@
 		<module>configure-config</module>
 		<module>configure-config-client</module>
 		<module>configure-config-client01</module>
+		<module>configure-config-archaius</module>
+		<module>activemq</module>
 		<!--可视化-->
 		<!--<module>visual-service-zookeeper</module>
 		<module>visual-service-zipkin</module>-->
