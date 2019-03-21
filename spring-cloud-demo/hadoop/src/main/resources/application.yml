@@ -1,0 +1,1 @@
+server:  port: 7781eureka:  client:    service-url:      defaultZone: http://${eureka.instance.hostname}:7777/eureka/  instance:    hostname: localhostspring:  application:    name: hadooophdfs:  path: hdfs://127.0.0.1:9000  username: root

@@ -1,0 +1,1 @@
+server:  port: 7776eureka:  client:    service-url:      defaultZone: http://${eureka.instance.hostname}:7775/eureka/  instance:    hostname: localhostspring:  application:    name: registry-center

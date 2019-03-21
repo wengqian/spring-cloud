@@ -1,0 +1,1 @@
+server:  port: 7778eureka:  client:    service-url:      defaultZone: http://127.0.0.1:7777/eureka/spring:  application:    name: micro-service #项目名称可以用fetch作为负载

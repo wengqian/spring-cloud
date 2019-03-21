@@ -1,0 +1,16 @@
+server:
+  port: 7788
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:7777/eureka/
+spring:
+  application:
+    name: micro-service-netty-websocket
+
+
+
+netty-websocket:
+  host: 0.0.0.0
+#  path: /
+  port: 7789
